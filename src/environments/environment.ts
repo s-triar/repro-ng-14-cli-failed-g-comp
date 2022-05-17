@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  clientIdIDS4: 'usahaku_app',
+  clientAPIIDS4: 'usahaku_app.api',
+  app_server: `${window.location.origin}`,
+  auth_server: `${window.location.origin}`,
 };
 
 /*
